@@ -9,7 +9,7 @@ reporter:'html',
   testDir: './tests/',
   // timeout: 40000,
   use: {
-    headless: false,
+    headless: true,
     viewport: { width: 1920, height: 1080 }, // Add this line
     screenshot: 'only-on-failure',
     // trace: 'retain-on-failure'
