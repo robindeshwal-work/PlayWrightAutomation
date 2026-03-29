@@ -1,0 +1,16 @@
+var text3 = "hello";
+console.log(text3);
+text3 = "Hello world";
+console.log(text3);
+var age3 = 30;
+console.log(age3);
+var numAry3 = [1, 2, 3];
+console.log(numAry3);
+numAry3 = [5, 6, 7];
+console.log(numAry3);
+var isFlag3 = true;
+console.log(isFlag3);
+var data = "this could be anything";
+console.log(data);
+data = "changed it";
+console.log(data);
