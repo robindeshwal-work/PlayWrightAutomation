@@ -5,6 +5,7 @@ test ('Basic UI Test with new Browser context', async ({browser}) => {
     const context = await browser.newContext();
     const page = await context.newPage();
     await page.goto ('https://rahulshettyacademy.com/');
+    // Test commment
 });
 
 test ('Basic UI Test with Page fixture', async ({page}) => {
